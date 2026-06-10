@@ -17,5 +17,9 @@ gem 'vcr'
 gem 'webmock'
 gem 'yajl-ruby'
 
+group :development do
+  gem 'bundler-audit'
+end
+
 # Specify your gem's dependencies in fluent-plugin-add.gemspec
 gemspec
